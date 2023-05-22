@@ -2,6 +2,8 @@
 
 Inspiration from Caddyshack (1980) 24m:50s
 
+Lets assume the bomb is a very large golf ball and we drop it from a plane.
+
 This C program simulates the trajectory of a bomb that is launched from an initial height with a specified initial velocity and launch angle. It accounts for the effects of gravity, air resistance, and wind on the bomb's trajectory.
 
 The main function of this program is `estimateBombTrajectory()`, which takes in initial velocity, launch angle, air density, bomb mass, and wind speed as parameters. Here's what happens step by step in this function:
