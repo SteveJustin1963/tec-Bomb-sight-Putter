@@ -1,8 +1,8 @@
 # tec-Bombsight-Putter
 
-## Inspiration from Caddyshack (1980) 24m:50s
+Inspiration from Caddyshack (1980) 24m:50s
 
-How to Use the Golf Ball Rolling Simulation with Gyroscopic Correction
+## How to Use the Golf Ball Rolling Simulation with Gyroscopic Correction - `bs-putt-1.c`
 
 The Golf Ball Rolling Simulation with Gyroscopic Correction is a powerful tool that allows you to analyze and understand the trajectory of a golf ball as it rolls towards a hole. By considering various real-world factors and incorporating a gyroscopic correction system, this simulation provides accurate and detailed results. Here's a step-by-step guide on how to use this technology:
 
@@ -24,7 +24,7 @@ The Golf Ball Rolling Simulation with Gyroscopic Correction is a powerful tool t
 
 The Golf Ball Rolling Simulation with Gyroscopic Correction offers a comprehensive and accurate representation of a golf ball's trajectory. By following these steps and utilizing this technology, you can gain valuable insights into the dynamics of golf and enhance your understanding and proficiency in the game.
 
-## now for a real pretend bomb
+## now for a real pretend bomb - `bs-1.c`
 This C program simulates the trajectory of a bomb that is launched from an initial height with a specified initial velocity and launch angle. It accounts for the effects of gravity, air resistance, and wind on the bomb's trajectory.
 
 The main function of this program is `estimateBombTrajectory()`, which takes in initial velocity, launch angle, air density, bomb mass, and wind speed as parameters. Here's what happens step by step in this function:
@@ -48,10 +48,7 @@ The main function of this program is `estimateBombTrajectory()`, which takes in 
 9. When the bomb hits the ground, the loop stops and the final horizontal position of the bomb is compared to a predefined target distance. If the horizontal position of the bomb is within 1.0 meter of the target distance, it is considered a hit. Otherwise, it's considered a miss.
 
 In the `main()` function, the initial conditions are defined, such as initial velocity, launch angle, altitude, bomb mass, and wind speed. The air density is calculated based on the altitude, assuming a decrease in air density with increase in altitude. Finally, `estimateBombTrajectory()` function is called with these parameters to simulate and print the bomb's trajectory, and determine whether the bomb hit the target or not.
-
-## code 
-`bs-1.c`
-
+ 
 
 
 ## Ref
