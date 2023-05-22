@@ -2,7 +2,7 @@
 
 Inspiration from Caddyshack (1980) 24m:50s
 
-## How to Use the Golf Ball Rolling Simulation with Gyroscopic Correction - `bs-putt-1.c`
+## Golf Ball Rolling Simulation with Gyroscopic Correction - `bs-putt-1.c`
 
 The Golf Ball Rolling Simulation with Gyroscopic Correction is a powerful tool that allows you to analyze and understand the trajectory of a golf ball as it rolls towards a hole. By considering various real-world factors and incorporating a gyroscopic correction system, this simulation provides accurate and detailed results. Here's a step-by-step guide on how to use this technology:
 
